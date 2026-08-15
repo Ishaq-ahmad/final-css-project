@@ -126,7 +126,7 @@ a.navbar-button:hover {
 }
 
 .main {
-  background-image: url("images/about-bg.png");
+  background-image: url("/images/about-bg.png");
   background-position: center;
   background-size: cover;
   flex-direction: column;
