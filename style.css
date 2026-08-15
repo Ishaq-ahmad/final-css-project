@@ -25,8 +25,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding: 1.2rem 0;
-  z-index: 10;
   animation: navDown 0.6s ease-out;
 }
 
@@ -47,8 +45,9 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0 1.5rem;
-  gap: 1rem;
+  padding: 1.3rem 1.5rem;
+  top: 0;
+  background-color: #c7c4c495;
 }
 
 /* Logo */
@@ -57,7 +56,7 @@
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  color: var(--black-color);
+  color: var(--white-color);
   text-decoration: none;
   transition: transform 0.25s ease;
 }
